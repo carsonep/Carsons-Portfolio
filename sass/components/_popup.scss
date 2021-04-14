@@ -10,6 +10,11 @@
   visibility: hidden;
   transition: all 0.3s;
 
+  &-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
   @supports (-webkit-backdrop-filter: blur(10px)) or
     (backdrop-filter: blur(10px)) {
     -webkit-backdrop-filter: blur(10px);
